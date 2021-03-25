@@ -17,10 +17,10 @@ const ContactItem = ({contact}) => {
             </h3>
             <ul className="list">
                 {email && (<li>
-                    <i className="fas fa-envelope-open">{email}</i>
+                    <i className="fas fa-envelope-open"> {email}</i>
                 </li>)}
                 {phone && (<li>
-                    <i className="fas fa-phone">{phone}</i>
+                    <i className="fas fa-phone"> {phone}</i>
                 </li>)}
             </ul>
             <p>
